@@ -6,7 +6,7 @@ public class GameEvent : ScriptableObject
 {
 
     private List<GameEventListener> listeners = new List<GameEventListener>();
-    public void RegisterListerner(GameEventListener listener)
+    public void RegisterListener(GameEventListener listener)
     {
         listeners.Add(listener);
     }
